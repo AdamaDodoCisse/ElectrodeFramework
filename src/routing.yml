@@ -1,0 +1,7 @@
+frontend.simple.index:
+    url : /hello/:name
+    callback:
+        controller: ElectrodeSource\Controller\Frontend\SimpleController
+        method: index
+    requirements:
+        name: .+

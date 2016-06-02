@@ -1,0 +1,20 @@
+{
+    "name": "electrode/electrode-framework",
+    "authors": [
+        {
+            "name": "Adama Dodo CISSE",
+            "email": "adama.dodo.cisse@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "ElectrodeFramework\\": ["app/"],
+            "ElectrodeSource\\" : ["src/"]
+        }
+    },
+    "require": {
+        "electrode/electrode": "dev-master",
+        "symfony/yaml": "3.1.*"
+    }
+}
